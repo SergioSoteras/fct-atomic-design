@@ -86,7 +86,7 @@ const App = () => {
     <Icon name='square-check' size='big' onClick={() => setModal(modal => !modal)}/>Check para ver el modal
     <Footer />
     {modal && <Modal onClick={() => setModal(modal => !modal)}>
-      <h3>Jajaja</h3>
+      <h3>Prueba de Children de Modal</h3>
       <p>Dale al boton [ X ] o al fondo azul para cerrar</p></Modal>}
     </>
   )
