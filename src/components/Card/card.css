@@ -1,0 +1,60 @@
+.card{
+    border: 2px solid rgb(111, 155, 206);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    width: 250px;
+    padding: 1em;
+    
+}
+
+.cardBody{
+    color: rgb(98, 178, 214);
+    font-size: 22px;
+    top: 10%;
+    bottom: 15%;
+}
+
+.cardHeader{  
+    top: 2%;
+    
+}
+
+.cardFooter{
+    margin: 3% 0 3% 0;
+    
+    
+}
+
+.imgCard{
+    max-width: 100%;
+    width: 215px;
+    height: 160px;
+}
+
+.cardBody > p {
+    font-size: 14px;
+}
+
+.front,.back{
+    
+    transition: transform .5s ease;
+  }
+.front {
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+     transform: perspective(600px) rotateY(360deg); 
+}
+
+.card.rotated > .front{
+    transform: perspective(600px) rotateY(360deg);
+  }
+.card.rotated > .back{ 
+    transform: perspective(600px) rotateY(0deg);
+  }  

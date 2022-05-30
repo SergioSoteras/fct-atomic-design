@@ -1,0 +1,22 @@
+.bg-light {
+    background-color: rgb(111, 155, 206) !important;
+}
+
+.navbar-brand{
+    margin-left: 1em;
+}
+
+.nav-link{
+    color: white !important;
+    margin-left: 3%;
+    padding: 16px;
+}
+
+.navbar-collapse{
+    background-color: rgb(111, 155, 206) ;
+    z-index: 1;
+}
+
+.navbar{
+    min-height: 64px;
+}

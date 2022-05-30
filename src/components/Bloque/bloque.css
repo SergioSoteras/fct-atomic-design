@@ -1,0 +1,33 @@
+.bloque {
+    color:#000000;
+    border: 2px solid rgb(111, 155, 206);
+    padding: 20px;
+    min-height: 280px;
+    border-radius: 20px;
+    margin-top: 1em;
+    /* transition-property: color;
+    transition-duration: 2s; */
+    background: rgba(255, 255, 255, 0.27);
+    position: relative;
+}
+
+.glassmor {
+    
+    border-radius: 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    border: 2px solid rgb(111, 155, 206);
+
+}
+
+.bloque:hover{
+    cursor:pointer;
+    color:rgb(111, 155, 206)
+}  
+
+.bloque > button{
+    bottom: 10%;
+    position: absolute;
+}

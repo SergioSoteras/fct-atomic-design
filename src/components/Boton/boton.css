@@ -1,0 +1,44 @@
+.sergio-boton {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  
+}
+.sergio-boton--primary {
+  color: rgb(255, 255, 255);
+  background: rgb(203,139,84);
+  background: linear-gradient(135deg, rgba(203,139,84,1) 43%, rgba(255,63,0,1) 100%);   
+  
+}
+.sergio-boton--secondary {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.sergio-boton--cancel {
+  color: rgb(255, 255, 255);
+  background-color: #ffbd06;
+}
+
+.sergio-boton--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.sergio-boton--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.sergio-boton--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.sergio-boton--primary:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(203,139,84);
+  background: linear-gradient(to left, rgba(203,139,84,1) 43%, rgba(255,63,0,1) 100%);   
+}

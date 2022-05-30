@@ -1,0 +1,19 @@
+.input{
+    background-color: rgb(195, 213, 236);
+    margin: 5px 10px 5px 0px;
+}
+
+.input-text{
+    border: 2px solid rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.input-password{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+label{
+    color: white;
+}

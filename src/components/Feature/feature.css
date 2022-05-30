@@ -1,0 +1,14 @@
+.feature {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em 15% 3em 50%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 20px;
+  }
+
+  @media (max-width: 770px){
+    .feature {
+      padding: 2em 15% 2em 20%;
+    }
+  }
