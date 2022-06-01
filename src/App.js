@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Hr } from './components/atoms/HorinzontalRule/Hr';
 import { Bloque } from './components/Bloque/Bloque';
 import { Boton } from './components/Boton/Boton';
 import { Card } from './components/Card/Card';
@@ -50,7 +51,7 @@ const App = () => {
     <div className='container'>
         <h1><center>Tema con Atomic Desing</center></h1>
         {login && <LoginPage/>}
-        <hr/><h3>Catálogo de nuestras bicicletas: </h3>
+        <Hr style={5} /><h3>Catálogo de nuestras bicicletas: </h3>
         <div className='bicis'>
         <Bloque titulo='Primera bici' boton='Mas info'>
             <p>Descripcion de la bici blablablabla
@@ -85,16 +86,19 @@ const App = () => {
     <Card key={bici.modelo} modelo={bici.modelo} precio={bici.precio} imagen={bici.imagen} description={bici.descripcion}/>
       )}
     </div>
+    <Hr style={2} />
     <div>
       <Title titulo='Prueba de inputs checkbox y radio'/>
       <Input tipo='checkbox' label='Opcion1'>Opcion1</Input>
       <Input tipo='radio' name='test' >Opcion1</Input>
       <Input tipo='radio' name='test' >Opcion2</Input>
       <Input tipo='radio' name='test' >Opcion3</Input>
-    </div></div>
+    </div>
+    <Hr style={3} />
     <Icon name='square-check' size='big' onClick={() => setModal(modal => !modal)}/>Check para ver el modal
+    </div>
     <Footer />
-    
+
     {modal && <Modal onClick={() => setModal(modal => !modal)}>
       <h3>Prueba de Children de Modal</h3>
       <p>Dale al boton [ X ] o al fondo azul para cerrar</p></Modal>}
