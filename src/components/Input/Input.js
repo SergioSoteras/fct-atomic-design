@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import './input.css';
 
-export const Input = ({label, tipo, size, placeholder, ...props}) => {
+export const Input = ({label, tipo, size, placeholder,children, ...props}) => {
   return (
     <>
     <label>{label}</label>
@@ -11,7 +11,7 @@ export const Input = ({label, tipo, size, placeholder, ...props}) => {
         size={size}
         className={['input', `input-${tipo}`].join(' ')}
         placeholder={placeholder}
-        {...props} />
+        {...props} />{children}
     
     </>
   )

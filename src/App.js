@@ -5,11 +5,13 @@ import { Card } from './components/Card/Card';
 import { Feature } from './components/Feature/Feature';
 import { Footer } from './components/Footer/Footer';
 import { Icon } from './components/Icon/Icon';
+import { Input } from './components/Input/Input';
 import LoginPage from './components/LoginPage';
 import { Modal } from './components/Modal/Modal';
 import { Navbar } from './components/Navbar/Navbar';
 
 import './components/templates/template.css'
+import { Title } from './components/Title/Title';
 
 const bicis = [{
   modelo: 'BMK-200',
@@ -82,9 +84,17 @@ const App = () => {
     { bicis.map (bici =>
     <Card key={bici.modelo} modelo={bici.modelo} precio={bici.precio} imagen={bici.imagen} description={bici.descripcion}/>
       )}
+    </div>
+    <div>
+      <Title titulo='Prueba de inputs checkbox y radio'/>
+      <Input tipo='checkbox' label='Opcion1'>Opcion1</Input>
+      <Input tipo='radio' name='test' >Opcion1</Input>
+      <Input tipo='radio' name='test' >Opcion2</Input>
+      <Input tipo='radio' name='test' >Opcion3</Input>
     </div></div>
     <Icon name='square-check' size='big' onClick={() => setModal(modal => !modal)}/>Check para ver el modal
     <Footer />
+    
     {modal && <Modal onClick={() => setModal(modal => !modal)}>
       <h3>Prueba de Children de Modal</h3>
       <p>Dale al boton [ X ] o al fondo azul para cerrar</p></Modal>}

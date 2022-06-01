@@ -26,4 +26,16 @@ Password.args = {
   placeholder: 'Contraseña...',
 };
 
+export const Radio = Template.bind({});
+Radio.args = {
+  tipo: 'radio',
+  children: <span>Opcion 1</span> 
+}
+
+export const Checkbox = Template.bind({});
+Checkbox.args = {
+  tipo: 'checkbox',
+  children: <span>Opcion 1</span> 
+}
+
 

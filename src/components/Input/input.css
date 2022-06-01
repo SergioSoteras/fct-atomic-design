@@ -17,3 +17,21 @@
 label{
     color: white;
 }
+
+.input-checkbox{
+    cursor: pointer;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    accent-color: rgb(111, 155, 206);
+}
+.input-checkbox:checked{
+    color: white;
+}
+.input-radio{
+    cursor: pointer;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    accent-color: rgb(111, 155, 206);
+}
