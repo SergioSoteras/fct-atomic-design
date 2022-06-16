@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import './icon.css';
 
 export const Icon = ({name,size,animation,...props}) => {
     let tamaño=""

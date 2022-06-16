@@ -1,25 +1,25 @@
 
-hr.hr1 {
+.hr1 {
     border-top: 1px solid rgb(111, 155, 206);;
   }
   
 
-  hr.hr2 {
+.hr2 {
     border-top: 1px dashed rgb(111, 155, 206);;
   }
   
 
-  hr.hr3 {
+.hr3 {
     border-top: 1px dotted rgb(111, 155, 206);;
   }
   
 
-  hr.hr4 {
+.hr4 {
     border: 1px solid rgb(111, 155, 206);;
   }
   
 
-  hr.hr5 {
+.hr5 {
     border: 3px solid rgb(111, 155, 206);
     border-radius: 5px;
   }

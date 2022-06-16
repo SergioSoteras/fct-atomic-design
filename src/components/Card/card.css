@@ -27,7 +27,8 @@
 
 .cardFooter{
     margin: 3% 0 3% 0;
-    
+    position: absolute;
+    bottom: 5px;
     
 }
 

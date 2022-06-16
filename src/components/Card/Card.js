@@ -21,7 +21,7 @@ export const Card = (props) => {
             <span>{props.precio}</span>
         </div>
         <div className='cardFooter'>
-            <Boton label='+Info ' onClick={handleCardFlip}><Icon name='bicycle' animation='bounce'/></Boton>
+            <Boton label='+Info ' onClick={handleCardFlip}><Icon name='bicycle'/></Boton>
             <Boton label='' primary='cancel' onClick={props.onClick}><Icon name='cart-plus' animation='beat'/></Boton>
         </div></div> : <div className={`card back ${cardIsFlipped ? 'rotated' : ''}`}>
         <div className='cardHeader'><Title titulo='Detalles'/></div>

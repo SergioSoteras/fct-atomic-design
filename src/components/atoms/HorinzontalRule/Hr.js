@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 
 import './hr.css'
 
-export const Hr = ({style}) => {
+export const Hr = ({tipo}) => {
   return (
-    <hr className={`hr${style}`}/>
+    <hr className={`hr${tipo}`}/>
   )
 }
 
 Hr.propTypes = {
-    style: PropTypes.number
+    tipo: PropTypes.string
 }
 
 Hr.defaultProps = {
-    style: 1
+    tipo:'1',
 }
