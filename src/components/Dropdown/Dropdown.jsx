@@ -8,7 +8,7 @@ export const Dropdown = (props) => {
         <button className="dropbtn">{props.titulo} <Icon name='caret-down'/></button>
         <div className="dropdown-content">
             {props.menu.map(opcion =>
-            <a key={opcion} href="#">{opcion}</a>)}           
+            <a key={opcion} >{opcion}</a>)}       
         </div>
     </div>
   )
